@@ -1,13 +1,16 @@
 import React from 'react';
-import {Text, View, StatusBar, SafeAreaView} from 'react-native';
-import HomeScreen from './src/screens/HomeScreen';
-
+import {StatusBar, SafeAreaView} from 'react-native';
+import Post from './src/components/Post';
+/* import HomeScreen from './src/screens/HomeScreen';
+ */
 const App = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
-        <HomeScreen />
+        {/*         <HomeScreen />
+         */}
+        <Post />
       </SafeAreaView>
     </>
   );
